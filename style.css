@@ -154,6 +154,7 @@ section > p::after {
     align-items: center;
     height: 30px;
     font-size: 0.825rem;
+    margin-block-end: 3rem;
 }
 
 .create:hover {
@@ -161,14 +162,10 @@ section > p::after {
     background: var(--clr-create-hover);
 }
 
-hr {
-    width: 100vw;
-    margin-block-end: 3rem;
-}
-
 footer {
     width: 100%;
-    margin-block-start: 3rem;
+    padding-block-start: 3rem;
+    border-top: 2px solid var(--clr-create);
     display: flex;
     flex-direction: column;
     align-items: center;
