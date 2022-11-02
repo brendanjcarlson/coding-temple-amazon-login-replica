@@ -29,9 +29,22 @@ body {
     flex-direction: column;
 }
 
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 7rem;
+    margin-block-end: 2rem;
+}
+
+header div {
+    background: gray;
+    padding: 0.5em 0.75em;
+    color: white;
+}
+
 .login {
     margin-inline: auto;
-    margin-block-start: 7.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
